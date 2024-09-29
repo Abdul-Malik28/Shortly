@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shortly</title>
 
+    <script src="js/script.js" defer></script>
+
     <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png" />
     <link rel="stylesheet" href="css/style.css">
 
@@ -105,9 +107,12 @@
                 <input type="text" class="flex-1 p-3 border-2 rounded-lg placeholder-yellow-500 focus:outline-none"
                     placeholder="Shorten a Link here" id="link-input" />
 
-                <button
-                    class="px-10 py-3 text-white bg-cyan rounded-lg hover:bg-cyanLight focus:outline-none md:py-2">Shorten
-                    It!</button>
+                <button class="px-10 py-3 text-white bg-cyan rounded-lg hover:bg-cyanLight focus:outline-none md:py-2">
+                    Shorten It!
+                </button>
+
+                <!-- error message -->
+                <div id="err-msg" class="absolute left-7 bottom-3 text-red text-sm italic"></div>
 
             </form>
 
@@ -123,7 +128,8 @@
                     <div class="font-bold text-cyan">https://rel.ink/k4IKyk
                     </div>
 
-                    <button class="p-2 px-8 text-white bg-cyan rounded-lg hover:opacity-70 focus:outline-none">Copy</button>
+                    <button
+                        class="p-2 px-8 text-white bg-cyan rounded-lg hover:opacity-70 focus:outline-none">Copy</button>
 
                 </div>
 
@@ -141,7 +147,8 @@
                     <div class="font-bold text-cyan">https://rel.ink/gxOXp9
                     </div>
 
-                    <button class="p-2 px-8 text-white bg-darkViolet rounded-lg hover:opacity-70 focus:outline-none">Copy</button>
+                    <button
+                        class="p-2 px-8 text-white bg-darkViolet rounded-lg hover:opacity-70 focus:outline-none">Copy</button>
 
                 </div>
 
@@ -159,7 +166,8 @@
                     <div class="font-bold text-cyan">https://rel.ink/gob3X9
                     </div>
 
-                    <button class="p-2 px-8 text-white bg-cyan rounded-lg hover:opacity-70 focus:outline-none">Copy</button>
+                    <button
+                        class="p-2 px-8 text-white bg-cyan rounded-lg hover:opacity-70 focus:outline-none">Copy</button>
 
                 </div>
 
